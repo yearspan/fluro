@@ -211,9 +211,9 @@ class FluroRouter {
           transitionDuration: transition == TransitionType.none
               ? Duration.zero
               : transitionDuration ?? route?.transitionDuration,
-          reverseTransitionDuration: transition == TransitionType.none
-              ? Duration.zero
-              : transitionDuration ?? route?.transitionDuration,
+//           reverseTransitionDuration: transition == TransitionType.none
+//               ? Duration.zero
+//               : transitionDuration ?? route?.transitionDuration,
           transitionsBuilder: transition == TransitionType.none
               ? (_, __, ___, child) => child
               : routeTransitionsBuilder,
